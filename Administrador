@@ -1,0 +1,10 @@
+class Administrador:
+
+def __init__ (self, cpf,nome):
+self.cpf=cpf
+self.nome=nome
+
+def exibir_informacoes(self):
+        print("cpf:", self.cpf)
+        print ("nome:", self.nome)
+

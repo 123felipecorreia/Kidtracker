@@ -1,0 +1,14 @@
+class Crianca:
+    def __init__(self, nome, responsavel, tipo_sanguineo, telefone, cpf, caracteristica, endereco, cidade):
+        self.nome = nome
+        self.responsavel = responsavel
+        self.tipo_sanguineo = tipo_sanguineo
+        self.telefone = telefone
+        self.cpf = cpf
+        self.caracteristica = caracteristica
+        self.endereco = endereco
+        self.cidade = cidade
+
+
+
+

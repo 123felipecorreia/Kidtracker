@@ -1,0 +1,13 @@
+class Responsavel:
+    def __init__(self, cpf, email, telefone, ddd):
+        self.cpf = cpf
+        self.email = email
+        self.telefone = telefone
+        self.ddd = ddd
+
+    def exibir_informacoes(self):
+        print("CPF:", self.cpf)
+        print("E-mail:", self.email)
+        print("Telefone:", self.telefone)
+        print("DDD:", self.ddd)
+
